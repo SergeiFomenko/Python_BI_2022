@@ -39,7 +39,8 @@ while True:
     print('Type your sequence here:')
     seq = str(input())
     letters = ['A','T','U','G','C']
-    alph_check=seq.upper()
+    alph_check = seq.upper()
+
     NA_type = 'DNA'
     if 'U' in alph_check:
         NA_type = 'RNA'

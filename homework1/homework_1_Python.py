@@ -20,7 +20,8 @@ def complement(sequence):
             compl_seq += compl_dic[nucl]
     return (compl_seq)
 
-def rev_com(sec):
+def reverse_complement(sec):
+
     return (reverse(complement(sec)))
 
 functions = {'transcribe':transcribe, 'reverse':reverse,

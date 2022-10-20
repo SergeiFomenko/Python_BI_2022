@@ -46,7 +46,8 @@ while True:
     TU_error = ('T' in alph_check and NA_type == 'RNA')
     for i in letters:
         alph_check = alph_check.replace(i,'')
-    if len(alph_check)>0 or TU_error:
+    if len(alph_check) > 0 or TU_error:
+
         print('Invalid alphabet, try again!')
     else:
         print (functions[command](seq))

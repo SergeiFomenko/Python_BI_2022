@@ -44,7 +44,8 @@ while True:
     if 'U' in alph_check:
         NA_type = 'RNA'
     TU_error = ('T' in alph_check and NA_type == 'RNA')
-    for i in letters:
+    for nucl in letters:
+
         alph_check = alph_check.replace(i,'')
     if len(alph_check) > 0 or TU_error:
 

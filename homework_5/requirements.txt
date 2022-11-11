@@ -1,0 +1,7 @@
+Minimal list of libraries :
+pandas
+numpy
+seaborn
+matplotlib
+
+

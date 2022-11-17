@@ -1,0 +1,13 @@
+Minimal list of libraries (the rest will be loaded when these libraries are installed):
+google
+google-api-python-client
+kivy
+biopython
+iohttp
+pandas
+scipy
+scanpy
+opencv
+lxml
+
+

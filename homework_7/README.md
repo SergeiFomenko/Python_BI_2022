@@ -1,0 +1,1 @@
+There is some functions for functional programming practice. No additional modules required.
